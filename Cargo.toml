@@ -19,4 +19,4 @@ url = "2.1.1"
 
 v_api = { git = "https://github.com/semantic-machines/v-common-api.git", branch = "main" }
 v_authorization = "0.1.0"
-v_az_lmdb = { path = "../v-az-lmdb" }
+v_az_lmdb = { git = "https://github.com/semantic-machines/v-common-az-lmdb.git" }
