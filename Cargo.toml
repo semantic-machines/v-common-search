@@ -1,6 +1,6 @@
 [package]
 name = "v-common-search"
-version = "0.1.6"
+version = "0.1.7"
 authors = ["itiu <ValeriyBushenev@gmail.com>"]
 edition = "2018"
 description = "common part of the veda platform"
@@ -21,5 +21,5 @@ url = "2.1.1"
 
 v_authorization = "=0.1.0"
 
-v_api = { package = "v-common-api", version = "0.1.6" }
+v_api = { package = "v-common-api", version = "0.1.7" }
 v_az_lmdb = { package = "v-common-az-lmdb", version = "=0.1.1" }
