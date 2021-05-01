@@ -1,6 +1,6 @@
 [package]
 name = "v-common-search"
-version = "0.1.11"
+version = "0.1.12"
 authors = ["itiu <ValeriyBushenev@gmail.com>"]
 edition = "2018"
 description = "common part of the veda platform"
@@ -12,12 +12,13 @@ path = "src/lib.rs"
 [dependencies]
 clickhouse-rs = {package = "v-clickhouse-rs", version = "0.2.0-alpha.6", default-features = false, features = ["async_std"] }
 
-futures = "0.3.5"
+futures = "=0.3.5"
 log = "0.4"
 nng = "0.5.1"
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 url = "2.1.1"
+regex-syntax = "=0.6.24"
 
 v_authorization = "=0.1.1"
 
